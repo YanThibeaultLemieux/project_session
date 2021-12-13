@@ -13,7 +13,7 @@ namespace Travail_fin_de_session
     {
         MySqlConnection con;
         static gestionDB gestionOrdinateur = null;
-
+        //commentaire
         public gestionDB()
         {
             //this.con = new MySqlConnection("Server=cours.cegep3r.info;Database=a2021_420326ri_equipe_21;Uid=1937041;Pwd=1937041;");
