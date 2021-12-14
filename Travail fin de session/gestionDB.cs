@@ -84,7 +84,7 @@ namespace Travail_fin_de_session
 
             while (r.Read())
             {
-                listeMat.Add(new Materiel(r.GetString(0), r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4), r.GetString(5)));
+                listeMat.Add(new Materiel(r.GetString(0), r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4)));
 
             }
 
@@ -125,16 +125,44 @@ namespace Travail_fin_de_session
                 commande.Parameters.AddWithValue("@telephone", c.Telephone);
                 commande.Parameters.AddWithValue("@poste", c.Poste);
                 commande.Parameters.AddWithValue("@bureau", c.Bureau);
-            commande.Parameters.AddWithValue("@email", c.Email);
-            commande.Parameters.AddWithValue("@type", c.Type);
+                commande.Parameters.AddWithValue("@email", c.Email);
+                commande.Parameters.AddWithValue("@type", c.Type);
                 con.Open();
 
                commande.Prepare();
 
             MySqlDataReader r = commande.ExecuteReader();
+
+            if (r.Read())
+                c.Id = r[0].ToString();
+
             con.Close();
 
            
+        }
+
+
+        public void ajouterMatériel(Materiel m) {
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "call ajout_matériel(@id, @marque, @modele, @etat, @note)";
+
+            commande.Parameters.AddWithValue("@id", m.Id);
+            commande.Parameters.AddWithValue("@marque", m.Marque);
+            commande.Parameters.AddWithValue("@modele", m.Modèle);
+            commande.Parameters.AddWithValue("@etat", m.État);
+            commande.Parameters.AddWithValue("@note", m.Note);
+           
+            con.Open();
+
+            commande.Prepare();
+
+            MySqlDataReader r = commande.ExecuteReader();
+
+            if (r.Read())
+                m.Id = r[0].ToString();
+
+            con.Close();
         }
 
         public int modifierClient (Client c)

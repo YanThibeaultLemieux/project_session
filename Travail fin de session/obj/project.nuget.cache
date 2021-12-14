@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XjdgZQL3zHGhp19zwmDt5kEbWwPncAhbwITMx+IhIAsd1nhlhuh/rIwRXe3cLOkRVUvNInsTWqovn+/xnj9qNQ==",
+  "dgSpecHash": "T+mYg25xCuRGzs50nTuICTZDkc8Sl/7OzDT1nCgixXz/jHPDROp3ivjhmIIJrAgdUh3AMuRf+jCFvDkK8qrkwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\Travail fin de session.csproj",
+  "projectFilePath": "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\Travail fin de session.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sorde\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Sorde\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

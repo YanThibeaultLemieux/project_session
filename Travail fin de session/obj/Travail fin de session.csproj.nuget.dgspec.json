@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\Travail fin de session.csproj": {}
+    "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\Travail fin de session.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\Travail fin de session.csproj": {
+    "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\Travail fin de session.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\Travail fin de session.csproj",
+        "projectUniqueName": "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\Travail fin de session.csproj",
         "projectName": "Travail fin de session",
-        "projectPath": "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\Travail fin de session.csproj",
+        "projectPath": "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\Travail fin de session.csproj",
         "packagesPath": "C:\\Users\\Sorde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sorde\\source\\repos\\Travail fin de session\\Travail fin de session\\obj\\",
+        "outputPath": "C:\\Users\\Sorde\\Source\\Repos\\project_session\\Travail fin de session\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

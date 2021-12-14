@@ -1,1 +1,1 @@
-C:\Users\Sorde\source\repos\Travail fin de session\Travail fin de session\Travail fin de session.csproj;x86
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Travail fin de session.csproj;x86

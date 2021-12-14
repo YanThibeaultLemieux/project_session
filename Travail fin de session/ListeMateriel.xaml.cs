@@ -27,5 +27,11 @@ namespace Travail_fin_de_session
             this.InitializeComponent();
             grilleMateriel.ItemsSource = MainPage.listeMateriels;
         }
+
+        private void ajoutMateriel(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AjoutMatériel));
+
+        }
     }
 }

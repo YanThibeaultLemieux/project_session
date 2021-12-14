@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,14 +18,13 @@ namespace Travail_fin_de_session
         String note;
         String image;
 
-        public Materiel(string id, string marque, string modèle, string état, string note, string image)
+        public Materiel(string id, string marque, string modèle, string état, string note)
         {
             this.id = id;
             this.marque = marque;
             this.modèle = modèle;
             this.état = état;
             this.note = note;
-            this.image = image;
         }
 
         public Materiel()
@@ -33,15 +34,24 @@ namespace Travail_fin_de_session
             this.modèle = "";
             this.état = "";
             this.note = "";
-            this.image = "";
         }
 
         public string Id { get => id; set => id = value; }
-        public string Marque { get => marque; set => marque = value; }
-        public string Modèle { get => modèle; set => modèle = value; }
-        public string État { get => état; set => état = value; }
-        public string Note { get => note; set => note = value; }
-        public string Image { get => image; set => image = value; }
+        public string Marque { get => marque;
+            set { marque = value;
+                this.OnPropertyChanged();  } }
+        public string Modèle { get => modèle; 
+            set {  modèle = value;
+                this.OnPropertyChanged();
+            } }
+        public string État { get => état; 
+            set {  état = value;
+                this.OnPropertyChanged();
+            } }
+        public string Note { get => note; 
+            set {  note = value;
+                this.OnPropertyChanged();
+            } }
 
         public override bool Equals(object obj)
         {
@@ -50,8 +60,7 @@ namespace Travail_fin_de_session
                    marque == materiel.marque &&
                    modèle == materiel.modèle &&
                    état == materiel.état &&
-                   note == materiel.note &&
-                   image == materiel.image;
+                   note == materiel.note;
         }
 
         public override int GetHashCode()
@@ -61,9 +70,14 @@ namespace Travail_fin_de_session
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(marque);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(modèle);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(état);
-            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(note);
             hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(image);
             return hashCode;
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnPropertyChanged([CallerMemberName] string propertyName = null) =>
+                this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
     }
 }
