@@ -32,6 +32,12 @@ namespace Travail_fin_de_session
             this.type = type;
             this.email = email;
         }
+
+        public Client(string id) 
+        {
+            this.id = "";
+        
+        }
         public Client()
         {
             this.id = "";

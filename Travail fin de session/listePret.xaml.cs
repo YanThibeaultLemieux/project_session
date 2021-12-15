@@ -31,7 +31,7 @@ namespace Travail_fin_de_session
 
         private void ajoutMateriel(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AjoutMatériel));
+            this.Frame.Navigate(typeof(AjoutPret));
         }
     }
 }

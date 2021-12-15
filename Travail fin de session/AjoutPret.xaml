@@ -1,0 +1,62 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:ui="using:Microsoft.Toolkit.Uwp.UI"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Travail_fin_de_session"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Microsoft.UI.Xaml.Controls"
+    x:Class="Travail_fin_de_session.AjoutPret"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Client (ID): " Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" Margin="0,200,0,0"/>
+        <ComboBox x:Name="idClientComboBox" Width="200px" Height="30px" Grid.Row="0" Grid.Column="1" SelectedIndex="0"
+                  HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <TextBlock Text="" Grid.Column="2" Grid.Row="0" x:Name="erreurNom" VerticalAlignment="Bottom"/>
+
+
+        <TextBlock Text="Date du prêt : " Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <DatePicker Grid.Row="1" Grid.Column="1"  x:Name="datePrêtPicker" Margin="20,10,0,10" HorizontalAlignment="Center"/>
+
+        <TextBlock Text="Heure" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <TextBox x:Name="heureGenerale" Grid.Row="2" Grid.Column="1" Width="200px"
+                ui:TextBoxExtensions.Mask="99:99:99"/>
+
+        <TextBlock Text="Date de retour : " Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <RadioButton x:Name="choixHeure" Content="Heure" Grid.Row="3" Grid.Column="2"/>
+        <RadioButton x:Name="choixJour" Content="Jour" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center"/>
+        <DatePicker Grid.Row="3" Grid.Column="1"  x:Name="dateRemisePicker" Margin="20,10,0,10" HorizontalAlignment="Center"/>
+
+        <TextBlock Grid.Row="4" Text="Matériel: " HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <ComboBox x:Name="idMatérielComboBox" Width="200px" Height="30px" Grid.Row="0" Grid.Column="1" SelectedIndex="0"
+                  HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+
+
+        <Button x:Name="Envoyer" Click="EnvoyerClient" Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
+        
+    </Grid>
+</Page>

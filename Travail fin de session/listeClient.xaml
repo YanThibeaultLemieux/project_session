@@ -8,9 +8,11 @@
     mc:Ignorable="d"
     xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
-        <controls:DataGrid x:Name="grilleNom" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center">
+     
+    <StackPanel>
+        <TextBlock Text="Liste de clients" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
+        <Grid>
+            <controls:DataGrid x:Name="grilleNom" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Id"
                                              Binding="{Binding Id}"/>
@@ -30,9 +32,9 @@
                                              Binding="{Binding Email}"/>
             </controls:DataGrid.Columns>
         </controls:DataGrid>
-
+        </Grid>
         <Button Width="150" Height="50" Content="Ajouter" Click="Ajouter_Click" x:Name="btAjouter"/>
         <Button Width="150" Height="50" Content="Modifier" Click="Modifier_Click" x:Name="btModifier" HorizontalAlignment="Right"/>
 
-    </Grid>
+    </StackPanel>
 </Page>

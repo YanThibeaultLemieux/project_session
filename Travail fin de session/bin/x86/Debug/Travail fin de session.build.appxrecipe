@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LAPTOP-O4NO9MLI</Machine>
+    <Machine>DESKTOP-640RSKH</Machine>
     <WindowsUser>Sorde</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b1aca776-9653-49b7-b2b3-95090dc4950d</PackageIdentityName>
     <PackageIdentityPublisher>CN=Sorde</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.exe">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.exe">
       <PackagePath>entrypoint\Travail fin de session.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
@@ -42,6 +42,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\k4os.hash.xxhash\1.0.6\lib\netstandard2.0\K4os.Hash.xxHash.dll">
       <PackagePath>K4os.Hash.xxHash.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.toolkit\7.1.2\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.toolkit.uwp\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.toolkit.uwp.ui\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
@@ -76,67 +85,70 @@
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\7.1.2\lib\uap10.0.17763\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.xr.xml">
       <PackagePath>Travail fin de session.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\ajoutClient.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\ajoutClient.xbf">
       <PackagePath>ajoutClient.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\AjoutMatériel.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\AjoutMatériel.xbf">
       <PackagePath>AjoutMatériel.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\bar.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\AjoutPret.xbf">
+      <PackagePath>AjoutPret.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\bar.xbf">
       <PackagePath>bar.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listeClient.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\listeClient.xbf">
       <PackagePath>listeClient.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\ListeMateriel.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\ListeMateriel.xbf">
       <PackagePath>ListeMateriel.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf">
       <PackagePath>listePret.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\modifierClient.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\modifierClient.xbf">
       <PackagePath>modifierClient.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Users.xbf">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Users.xbf">
       <PackagePath>Users.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -145,10 +157,10 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Core\Travail fin de session.exe">
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Core\Travail fin de session.exe">
       <PackagePath>Travail fin de session.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">

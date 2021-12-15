@@ -20,9 +20,8 @@ namespace Travail_fin_de_session
 
 
 
-        public pret(int id, string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
+        public pret(string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
         {
-            this.id = id;
             this.idClient = idClient;
             this.date_pret = date_pret;
             this.heure = heure;

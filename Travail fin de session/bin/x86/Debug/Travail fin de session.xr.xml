@@ -53,6 +53,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -84,6 +86,19 @@
     </RootType>
     <RootType FullName="Travail_fin_de_session.ajoutClient" />
     <RootType FullName="Travail_fin_de_session.AjoutMatériel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.DatePicker">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.TextBoxExtensions">
+      <RootMethod Name="GetMask" />
+      <RootMethod Name="SetMask" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Travail_fin_de_session.AjoutPret" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="VerticalAlignment" />
     </RootType>
@@ -98,9 +113,14 @@
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Travail_fin_de_session.bar" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
+    </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGrid">
       <RootProperty Name="AutoGenerateColumns" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsReadOnly" />
       <RootProperty Name="Columns" />
     </RootType>
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DataGridTextColumn">
@@ -111,10 +131,6 @@
     <RootType FullName="Travail_fin_de_session.listeClient" />
     <RootType FullName="Travail_fin_de_session.ListeMateriel" />
     <RootType FullName="Travail_fin_de_session.listePret" />
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Background" />
-      <RootProperty Name="Children" />
-    </RootType>
     <RootType FullName="Travail_fin_de_session.MainPage" />
     <RootType FullName="Travail_fin_de_session.modifierClient" />
     <RootType FullName="Travail_fin_de_session.Users" />

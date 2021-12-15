@@ -17,7 +17,7 @@ namespace Travail_fin_de_session
         public gestionDB()
         {
             //this.con = new MySqlConnection("Server=cours.cegep3r.info;Database=a2021_420326ri_equipe_21;Uid=1937041;Pwd=1937041;");
-            this.con = new MySqlConnection("Server=localhost;Database=bd_groupe_21_yan;Uid=root;Pwd=root;");
+            this.con = new MySqlConnection("Server=localhost;Database=bd_groupe_21;Uid=root;Pwd=root;");
 
         }
 
@@ -49,6 +49,33 @@ namespace Travail_fin_de_session
 
                 return liste;
             }
+
+
+        public ObservableCollection<Client> getClientsID()
+        {
+            ObservableCollection<Client> liste = new ObservableCollection<Client>();
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "Select id from client";
+            con.Open();
+            MySqlDataReader r = commande.ExecuteReader();
+
+            while (r.Read())
+            {
+                liste.Add(new Client(r.GetString(0)));
+
+            }
+
+            r.Close();
+            con.Close();
+
+            return liste;
+        }
+
+
+
+
 
         public ObservableCollection<Utilisateurs> getUsers()
         {
@@ -106,7 +133,7 @@ namespace Travail_fin_de_session
             while (r.Read())
             {
            
-                listePrets.Add(new pret(r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4), r.GetString(5), r.GetString(6)));
+                listePrets.Add(new pret(r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4), r.GetString(5), r.GetString(6)));
 
             }
 
@@ -163,6 +190,50 @@ namespace Travail_fin_de_session
 
            
         }
+
+        public void ajouterPret_1(pret p)
+        {
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "call ajout_pret(@type, @client, @datepret, @heure, @remise,  @utilisateur, @état)";
+
+            commande.Parameters.AddWithValue("@type", "jour");
+            commande.Parameters.AddWithValue("@client", p.IdClient);
+            commande.Parameters.AddWithValue("@datepret", p.Date_pret);
+            commande.Parameters.AddWithValue("@heure", p.Heure);
+            commande.Parameters.AddWithValue("@remise", p.Date_remise);
+            commande.Parameters.AddWithValue("@utilisateur", p.Nom_utilisateur);
+            commande.Parameters.AddWithValue("@état", p.Etat);
+            con.Open();
+
+            commande.Prepare();
+
+            MySqlDataReader r = commande.ExecuteReader();
+        }
+
+        public void ajouterPret_2(pret p)
+        {
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "call ajout_pret(@type, @client, @datepret, @heure, @remise,  @utilisateur, @état)";
+
+            commande.Parameters.AddWithValue("@type", "heure");
+            commande.Parameters.AddWithValue("@client", p.IdClient);
+            commande.Parameters.AddWithValue("@datepret", p.Date_pret);
+            commande.Parameters.AddWithValue("@heure", p.Heure);
+            commande.Parameters.AddWithValue("@remise", p.Date_pret);
+            commande.Parameters.AddWithValue("@utilisateur", p.Nom_utilisateur);
+            commande.Parameters.AddWithValue("@état", p.Etat);
+            con.Open();
+
+            commande.Prepare();
+
+            MySqlDataReader r = commande.ExecuteReader();
+        }
+
+
 
 
         public void ajouterMatériel(Materiel m) {

@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Travail_fin_de_session.bar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Travail_fin_de_session"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Margin="0,0,0,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CommandBar DefaultLabelPosition="Right" Grid.Column="1">
+                    <CommandBar.Content >Vous êtes connecter!</CommandBar.Content>
+                    <AppBarButton x:ConnectionId='3' Icon="List"  Label="Clients"                     />
+                    <AppBarButton x:ConnectionId='4' Icon="List" Label="Utilisateurs"                          />
+                    <AppBarButton x:ConnectionId='5' Icon="List" Label="Matériels"                       />
+                    <AppBarButton x:ConnectionId='6' Icon="SelectAll" Label="Emprunt"                       />
+                    <AppBarButton x:ConnectionId='7' Icon="Remove"  Label="Déconnection"                     />
+                </CommandBar>
+            </Grid>
+
+
+            <Frame x:ConnectionId='2' x:Name="mainFrame" Grid.Row="1" VerticalAlignment="Stretch">
+
+            </Frame>
+
+
+        </Grid>
+    </Grid>
+</Page>
+

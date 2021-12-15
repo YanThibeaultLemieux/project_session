@@ -27,7 +27,7 @@ namespace Travail_fin_de_session
         internal static ObservableCollection<Materiel> listeMateriels = gestionDB.getInstance().getMateriel();
         internal static ObservableCollection<Utilisateurs> listeUsers = gestionDB.getInstance().getUsers();
         internal static ObservableCollection<pret> listePrets = gestionDB.getInstance().getPrets();
-
+        internal static string Connecté;
         internal static Utilisateurs userlogin;
         public MainPage()
         {
@@ -44,6 +44,7 @@ namespace Travail_fin_de_session
             if (gestionDB.getInstance().Login(user) == 1)
             {
                 this.Frame.Navigate(typeof(bar));
+                Connecté = user.Nom_utilisateur;
             }
             else
             {

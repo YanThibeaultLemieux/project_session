@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <controls:DataGrid x:Name="grilleMateriel" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center">
+        <controls:DataGrid x:Name="grilleMateriel" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Id"
                                              Binding="{Binding Id}"/>
