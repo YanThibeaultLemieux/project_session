@@ -127,6 +127,9 @@
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\ListeMateriel.xbf">
       <PackagePath>ListeMateriel.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf">
+      <PackagePath>listePret.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>

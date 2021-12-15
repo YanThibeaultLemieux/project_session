@@ -94,6 +94,29 @@ namespace Travail_fin_de_session
             return listeMat;
         }
 
+        public ObservableCollection<pret> getPrets() {
+            ObservableCollection<pret> listePrets = new ObservableCollection<pret>();
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "Select * from prêt";
+            con.Open();
+            MySqlDataReader r = commande.ExecuteReader();
+
+            while (r.Read())
+            {
+           
+                listePrets.Add(new pret(r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4), r.GetString(5), r.GetString(6)));
+
+            }
+
+            r.Close();
+            con.Close();
+
+            return listePrets;
+        }
+
+
         public int Login(Utilisateurs user1) {
             Utilisateurs user = null;
 

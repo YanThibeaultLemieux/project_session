@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-13T22:39:02.772</Modified>
+      <Modified>2021-12-14T02:44:39.563</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.exe">
       <PackagePath>entrypoint\Travail fin de session.exe</PackagePath>
-      <Modified>2021-12-13T22:39:01.692</Modified>
+      <Modified>2021-12-14T02:44:38.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
       <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
@@ -142,43 +142,47 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.xr.xml">
       <PackagePath>Travail fin de session.xr.xml</PackagePath>
-      <Modified>2021-12-13T22:12:25.271</Modified>
+      <Modified>2021-12-14T02:44:38.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.581</Modified>
+      <Modified>2021-12-14T02:44:38.262</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\ajoutClient.xbf">
       <PackagePath>ajoutClient.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.581</Modified>
+      <Modified>2021-12-14T02:44:38.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\AjoutMatériel.xbf">
       <PackagePath>AjoutMatériel.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.582</Modified>
+      <Modified>2021-12-14T02:44:38.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\bar.xbf">
       <PackagePath>bar.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.582</Modified>
+      <Modified>2021-12-14T02:44:38.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listeClient.xbf">
       <PackagePath>listeClient.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.582</Modified>
+      <Modified>2021-12-14T02:44:38.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\ListeMateriel.xbf">
       <PackagePath>ListeMateriel.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.582</Modified>
+      <Modified>2021-12-14T02:44:38.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf">
+      <PackagePath>listePret.xbf</PackagePath>
+      <Modified>2021-12-14T02:44:38.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.583</Modified>
+      <Modified>2021-12-14T02:44:38.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\modifierClient.xbf">
       <PackagePath>modifierClient.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.583</Modified>
+      <Modified>2021-12-14T02:44:38.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Users.xbf">
       <PackagePath>Users.xbf</PackagePath>
-      <Modified>2021-12-13T22:39:01.583</Modified>
+      <Modified>2021-12-14T02:44:38.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -190,11 +194,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-13T22:12:26.027</Modified>
+      <Modified>2021-12-14T02:33:59.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\Core\Travail fin de session.exe">
       <PackagePath>Travail fin de session.exe</PackagePath>
-      <Modified>2021-12-13T22:39:02.766</Modified>
+      <Modified>2021-12-14T02:44:39.558</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

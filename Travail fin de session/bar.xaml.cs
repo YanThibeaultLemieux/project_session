@@ -49,5 +49,11 @@ namespace Travail_fin_de_session
             MainPage.userlogin = new Utilisateurs("", "", "", "");
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        private void Liste_de_prêts(object sender, RoutedEventArgs e)
+        {
+            this.mainFrame.Navigate(typeof(listePret));
+
+        }
     }
 }

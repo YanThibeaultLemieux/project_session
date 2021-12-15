@@ -24,8 +24,8 @@
                     <AppBarButton x:ConnectionId='3' Icon="List"  Label="Clients"                     />
                     <AppBarButton x:ConnectionId='4' Icon="List" Label="Utilisateurs"                          />
                     <AppBarButton x:ConnectionId='5' Icon="List" Label="Matériels"                       />
-                    <AppBarButton Icon="SelectAll" Label="Emprunt"/>
-                    <AppBarButton x:ConnectionId='6' Icon="Remove"  Label="Déconnection"                     />
+                    <AppBarButton x:ConnectionId='6' Icon="SelectAll" Label="Emprunt"                       />
+                    <AppBarButton x:ConnectionId='7' Icon="Remove"  Label="Déconnection"                     />
                 </CommandBar>
             </Grid>
 

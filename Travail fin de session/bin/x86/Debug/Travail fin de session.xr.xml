@@ -13,6 +13,11 @@
     <RootPropertyPathName Name="État" />
     <RootPropertyPathName Name="Modèle" />
     <RootPropertyPathName Name="Marque" />
+    <RootPropertyPathName Name="Etat" />
+    <RootPropertyPathName Name="Date_remise" />
+    <RootPropertyPathName Name="Heure" />
+    <RootPropertyPathName Name="Date_pret" />
+    <RootPropertyPathName Name="IdClient" />
     <RootPropertyPathName Name="Nom_utilisateur" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -105,6 +110,7 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Travail_fin_de_session.listeClient" />
     <RootType FullName="Travail_fin_de_session.ListeMateriel" />
+    <RootType FullName="Travail_fin_de_session.listePret" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />

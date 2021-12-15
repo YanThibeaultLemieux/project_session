@@ -18,22 +18,7 @@ namespace Travail_fin_de_session
         string nom_utilisateur;
         string etat;
 
-        public int Id { get => id; 
-            set {  id = value; this.OnPropertyChanged(); } }
-        public string IdClient { get => idClient;
-            set {  idClient = value;
-                this.OnPropertyChanged();
-            } }
-        public string Date_pret { get => date_pret;
-            set {  date_pret = value; this.OnPropertyChanged(); } }
-        public string Heure { get => heure; 
-            set {  heure = value; this.OnPropertyChanged(); } }
-        public string Date_remise { get => date_remise; 
-            set {  date_remise = value; this.OnPropertyChanged(); } }
-        public string Nom_utilisateur { get => nom_utilisateur; 
-            set {  nom_utilisateur = value; this.OnPropertyChanged(); } }
-        public string Etat { get => etat; 
-            set {  etat = value; this.OnPropertyChanged(); } }
+
 
         public pret(int id, string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
         {
@@ -68,7 +53,45 @@ namespace Travail_fin_de_session
                    nom_utilisateur == pret.nom_utilisateur &&
                    etat == pret.etat;
         }
-
+        public int Id
+        {
+            get => id;
+            set { id = value; this.OnPropertyChanged(); }
+        }
+        public string IdClient
+        {
+            get => idClient;
+            set
+            {
+                idClient = value;
+                this.OnPropertyChanged();
+            }
+        }
+        public string Date_pret
+        {
+            get => date_pret;
+            set { date_pret = value; this.OnPropertyChanged(); }
+        }
+        public string Heure
+        {
+            get => heure;
+            set { heure = value; this.OnPropertyChanged(); }
+        }
+        public string Date_remise
+        {
+            get => date_remise;
+            set { date_remise = value; this.OnPropertyChanged(); }
+        }
+        public string Nom_utilisateur
+        {
+            get => nom_utilisateur;
+            set { nom_utilisateur = value; this.OnPropertyChanged(); }
+        }
+        public string Etat
+        {
+            get => etat;
+            set { etat = value; this.OnPropertyChanged(); }
+        }
         public override int GetHashCode()
         {
             int hashCode = -2037683541;

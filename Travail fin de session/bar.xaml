@@ -24,7 +24,7 @@
                     <AppBarButton Icon="List"  Label="Clients" Click="Client_Click"/>
                     <AppBarButton Icon="List" Label="Utilisateurs" Click="Utilisateur_Click"/>
                     <AppBarButton Icon="List" Label="Matériels" Click="Materiel_Click"/>
-                    <AppBarButton Icon="SelectAll" Label="Emprunt"/>
+                    <AppBarButton Icon="SelectAll" Label="Emprunt" Click="Liste_de_prêts"/>
                     <AppBarButton Icon="Remove"  Label="Déconnection" Click="Déconnection"/>
                 </CommandBar>
             </Grid>

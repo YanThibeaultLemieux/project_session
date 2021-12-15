@@ -14,15 +14,15 @@
                 <controls:DataGridTextColumn Header="Id"
                                              Binding="{Binding Id}"/>
                 <controls:DataGridTextColumn Header="idClient"
-                                             Binding="{Binding idClient}"/>
+                                             Binding="{Binding IdClient}"/>
                 <controls:DataGridTextColumn Header="Date du prêt"
-                                             Binding="{Binding date_pret}"/>
+                                             Binding="{Binding Date_pret}"/>
                 <controls:DataGridTextColumn Header="Heure"
-                                             Binding="{Binding heure}"/>
+                                             Binding="{Binding Heure}"/>
                 <controls:DataGridTextColumn Header="Date de remise"
-                                             Binding="{Binding date_remise}"/>
+                                             Binding="{Binding Date_remise}"/>
                 <controls:DataGridTextColumn Header="Utilisateur"
-                                             Binding="{Binding etat}"/>
+                                             Binding="{Binding Etat}"/>
 
             </controls:DataGrid.Columns>
         </controls:DataGrid>

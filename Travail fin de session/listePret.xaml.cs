@@ -25,6 +25,13 @@ namespace Travail_fin_de_session
         public listePret()
         {
             this.InitializeComponent();
+            grillePrêt.ItemsSource = MainPage.listePrets;
+
+        }
+
+        private void ajoutMateriel(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AjoutMatériel));
         }
     }
 }

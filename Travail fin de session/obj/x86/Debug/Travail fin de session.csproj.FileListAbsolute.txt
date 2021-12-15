@@ -199,3 +199,8 @@ C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug
 C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\AjoutMatériel.g.cs
 C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\AjoutMatériel.xaml
 C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\AjoutMatériel.xbf
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\listePret.g.i.cs
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\listePret.g.cs
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\listePret.xaml
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\obj\x86\Debug\listePret.xbf
+C:\Users\Sorde\Source\Repos\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf

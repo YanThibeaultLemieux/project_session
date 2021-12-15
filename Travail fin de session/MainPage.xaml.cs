@@ -26,7 +26,7 @@ namespace Travail_fin_de_session
         internal static ObservableCollection<Client> listeClients = gestionDB.getInstance().getClients();
         internal static ObservableCollection<Materiel> listeMateriels = gestionDB.getInstance().getMateriel();
         internal static ObservableCollection<Utilisateurs> listeUsers = gestionDB.getInstance().getUsers();
-        internal static ObservableCollection<pret> listePrets = gestionDB.getInstance().getPret();
+        internal static ObservableCollection<pret> listePrets = gestionDB.getInstance().getPrets();
 
         internal static Utilisateurs userlogin;
         public MainPage()
