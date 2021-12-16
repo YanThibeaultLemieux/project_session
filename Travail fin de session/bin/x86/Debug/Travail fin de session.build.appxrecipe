@@ -148,6 +148,9 @@
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\modifierClient.xbf">
       <PackagePath>modifierClient.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\ModifierMateriel.xbf">
+      <PackagePath>ModifierMateriel.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Users.xbf">
       <PackagePath>Users.xbf</PackagePath>
     </AppxPackagedFile>

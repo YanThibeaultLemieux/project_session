@@ -27,5 +27,10 @@ namespace Travail_fin_de_session
             this.InitializeComponent();
             grilleUtilisateurs.ItemsSource = MainPage.listeUsers;
         }
+
+        private void AjouteerUser_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

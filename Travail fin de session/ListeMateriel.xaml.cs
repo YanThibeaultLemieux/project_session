@@ -21,7 +21,12 @@ namespace Travail_fin_de_session
     /// Une page vide peut être utilisée seule ou constituer une page de destination au sein d'un frame.
     /// </summary>
     public sealed partial class ListeMateriel : Page
+
+
     {
+
+        internal static Materiel indexMat = new Materiel();
+
         public ListeMateriel()
         {
             this.InitializeComponent();
@@ -32,6 +37,20 @@ namespace Travail_fin_de_session
         {
             this.Frame.Navigate(typeof(AjoutMatériel));
 
+        }
+
+        private void btEnvoyer_Click(object sender, RoutedEventArgs e)
+        {
+            indexMat = (Materiel)grilleMateriel.SelectedItem;
+            if (ListeMateriel.indexMat is null)
+            {
+                ChoixVide.Text = "Veuillez sélectionner un matériel à modifier";
+            }
+            else
+            {
+
+                this.Frame.Navigate(typeof(ModifierMateriel));
+            }
         }
     }
 }

@@ -39,8 +39,17 @@ namespace Travail_fin_de_session
 
         private void Modifier_Click(object sender, RoutedEventArgs e)
         {
+
             indexClient = (Client)grilleNom.SelectedItem;
+            if (listeClient.indexClient is null)
+            {
+                erreurPick.Text = "Veuillez sélectionner un client à modifier";
+            }
+            else { 
+
             this.Frame.Navigate(typeof(modifierClient));
+            }
         }
+
     }
 }

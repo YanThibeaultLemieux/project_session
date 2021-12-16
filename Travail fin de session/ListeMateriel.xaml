@@ -8,8 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <controls:DataGrid x:Name="grilleMateriel" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
+    <StackPanel>
+        <TextBlock Text="Liste du matériel" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
+
+        <Grid Height="800">
+            <controls:DataGrid x:Name="grilleMateriel" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Id"
                                              Binding="{Binding Id}"/>
@@ -23,7 +26,11 @@
                                              Binding="{Binding Note}"/>
             </controls:DataGrid.Columns>
         </controls:DataGrid>
-        <Button x:Name="Envoyer" Click="ajoutMateriel" Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
+            <Button x:Name="Envoyer" Click="ajoutMateriel" Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
+            <Button x:Name="btModifier" Content="Modifier matériel" Width="150" Height="50" Foreground="AliceBlue" Background="Black" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.RowSpan="6" Click="btEnvoyer_Click"
+                Grid.Row="4"></Button>
+        </Grid>
 
-    </Grid>
+        <TextBlock x:Name="ChoixVide" FontSize="50" Foreground="OrangeRed" Text="" HorizontalAlignment="Center"/>
+    </StackPanel>
 </Page>

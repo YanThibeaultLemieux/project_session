@@ -37,6 +37,7 @@ namespace Travail_fin_de_session
             typeClient.Items.Add("Étudiant");
             typeClient.Items.Add("Professeur");
             typeClient.Items.Add("Employé");
+            idClient.Text = listeClient.indexClient.Id;
         }
 
         private void EnvoyerClient(object sender, RoutedEventArgs e)
@@ -47,9 +48,13 @@ namespace Travail_fin_de_session
 
             if (regexTelephone.IsMatch(telClient.Text) && nomClient.Text != "" && prenomClient.Text != "" && regexEmail.IsMatch(emailClient.Text))
             {
-                Client client = new Client(null, nomClient.Text, prenomClient.Text, emailClient.Text, telClient.Text, posteClient.Text, bureauClient.Text, (String)typeClient.SelectedItem);
-                gestionDB.getInstance().ajouterClient(client); // MODIFIER ICI
+                Client client = new Client(idClient.Text, nomClient.Text, prenomClient.Text, telClient.Text, posteClient.Text, bureauClient.Text, (String)typeClient.SelectedItem, emailClient.Text);
+                MainPage.listeClients.Remove(listeClient.indexClient);
+                gestionDB.getInstance().modifierClient(client);
+
                 MainPage.listeClients.Add(client);
+
+
                 this.Frame.Navigate(typeof(listeClient));
             }
             else

@@ -8,7 +8,9 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <StackPanel>
+        <TextBlock Text="Liste des utilisateurs" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
+        <Grid>
         <controls:DataGrid x:Name="grilleUtilisateurs" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Nom d'utilisateur"
@@ -19,5 +21,7 @@
                                              Binding="{Binding Prenom}"/>
             </controls:DataGrid.Columns>
         </controls:DataGrid>
-    </Grid>
+            <Button x:Name="AjouteerUser" Content="Ajouter"  Width="150" Height="50" Foreground="AliceBlue" Background="Black" Click="AjouteerUser_Click"/>
+        </Grid>
+    </StackPanel>
 </Page>

@@ -8,7 +8,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <StackPanel>
+        <TextBlock Text="Liste de prêts" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
+
+        <Grid>
         <controls:DataGrid x:ConnectionId='2' x:Name="grillePrêt" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Id"
@@ -27,7 +30,7 @@
             </controls:DataGrid.Columns>
         </controls:DataGrid>
         <Button x:ConnectionId='3' x:Name="Envoyer"                       Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
-
-    </Grid>
+        </Grid>
+    </StackPanel>
 </Page>
 

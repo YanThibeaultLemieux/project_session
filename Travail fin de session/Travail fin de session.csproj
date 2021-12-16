@@ -125,6 +125,9 @@
     <Compile Include="AjoutPret.xaml.cs">
       <DependentUpon>AjoutPret.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AjoutUsager.xaml.cs">
+      <DependentUpon>AjoutUsager.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -149,6 +152,9 @@
     <Compile Include="Materiel.cs" />
     <Compile Include="modifierClient.xaml.cs">
       <DependentUpon>modifierClient.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModifierMateriel.xaml.cs">
+      <DependentUpon>ModifierMateriel.xaml</DependentUpon>
     </Compile>
     <Compile Include="pret.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -189,6 +195,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="AjoutUsager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="bar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -210,6 +220,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="modifierClient.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModifierMateriel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

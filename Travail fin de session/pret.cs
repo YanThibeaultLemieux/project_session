@@ -20,8 +20,9 @@ namespace Travail_fin_de_session
 
 
 
-        public pret(string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
+        public pret(int id, string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
         {
+            Id1 = id;
             this.idClient = idClient;
             this.date_pret = date_pret;
             this.heure = heure;
@@ -29,6 +30,22 @@ namespace Travail_fin_de_session
             this.nom_utilisateur = nom_utilisateur;
             this.etat = etat;
         }
+
+        public pret( string idClient, string date_pret, string heure, string date_remise, string nom_utilisateur, string etat)
+        {
+            Id1 = id;
+            this.idClient = idClient;
+            this.date_pret = date_pret;
+            this.heure = heure;
+            this.date_remise = date_remise;
+            this.nom_utilisateur = nom_utilisateur;
+            this.etat = etat;
+        }
+        public pret(int id)
+        {
+            Id1 = id;
+        }
+
 
         public pret()
         {
@@ -91,6 +108,9 @@ namespace Travail_fin_de_session
             get => etat;
             set { etat = value; this.OnPropertyChanged(); }
         }
+
+        public long Id1 { get; }
+
         public override int GetHashCode()
         {
             int hashCode = -2037683541;
