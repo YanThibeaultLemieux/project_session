@@ -156,10 +156,13 @@
     <Compile Include="ModifierMateriel.xaml.cs">
       <DependentUpon>ModifierMateriel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ModifierUtilisateur.xaml.cs">
+      <DependentUpon>ModifierUtilisateur.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pret.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Users.xaml.cs">
-      <DependentUpon>Users.xaml</DependentUpon>
+    <Compile Include="listeUsers.xaml.cs">
+      <DependentUpon>listeUsers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Utilisateurs.cs" />
   </ItemGroup>
@@ -227,7 +230,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Users.xaml">
+    <Page Include="listeUsers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModifierUtilisateur.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -9,7 +9,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\listePret.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\MainPage.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\modifierClient.xbf
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\Users.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\Travail fin de session.xr.xml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\Travail fin de session.exe
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\Travail fin de session.pdb
@@ -61,8 +60,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\MainPage.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\modifierClient.g.i.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\modifierClient.g.cs
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Users.g.i.cs
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Users.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\XamlTypeInfo.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\App.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ajoutClient.xaml
@@ -74,7 +71,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listePret.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\MainPage.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\modifierClient.xaml
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Users.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\App.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ajoutClient.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\AjoutMatériel.xbf
@@ -85,7 +81,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listePret.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\MainPage.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\modifierClient.xbf
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Users.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\XamlSaveStateFile.xml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Travail fin de session.csproj.CoreCompileInputs.cache
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Travail fin de session.csproj.CopyComplete
@@ -121,3 +116,19 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\resources.en-us.resfiles.intermediate
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ProjectArchitectures.txt
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424959200000000.json
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\AjoutUsager.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\ModifierMateriel.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x64\Debug\listeUsers.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\Travail fin de session.csproj.AssemblyReference.cache
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\AjoutUsager.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\AjoutUsager.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ModifierMateriel.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ModifierMateriel.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listeUsers.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listeUsers.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\AjoutUsager.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ModifierMateriel.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listeUsers.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\AjoutUsager.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\ModifierMateriel.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x64\Debug\listeUsers.xbf

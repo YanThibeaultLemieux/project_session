@@ -12,7 +12,7 @@
         <TextBlock Text="Liste de prêts" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
 
         <Grid>
-        <controls:DataGrid x:ConnectionId='2' x:Name="grillePrêt" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
+        <controls:DataGrid x:ConnectionId='4' x:Name="grillePrêt" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
             <controls:DataGrid.Columns>
                 <controls:DataGridTextColumn Header="Id"
                                              Binding="{Binding Id}"/>
@@ -24,13 +24,16 @@
                                              Binding="{Binding Heure}"/>
                 <controls:DataGridTextColumn Header="Date de remise"
                                              Binding="{Binding Date_remise}"/>
-                <controls:DataGridTextColumn Header="Utilisateur"
+                <controls:DataGridTextColumn Header="État"
                                              Binding="{Binding Etat}"/>
 
             </controls:DataGrid.Columns>
         </controls:DataGrid>
-        <Button x:ConnectionId='3' x:Name="Envoyer"                       Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
+        <Button x:ConnectionId='5' x:Name="Envoyer"                       Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
         </Grid>
+        <Button x:ConnectionId='2' x:Name="Retourner"                       Content="Retourner" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black" Margin="0,100,0,0"/>
+        <TextBlock x:ConnectionId='3' Text="" x:Name="erreurChoix" FontSize="50" Foreground="Red" HorizontalAlignment="Center"/>
+
     </StackPanel>
 </Page>
 

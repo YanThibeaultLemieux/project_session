@@ -9,14 +9,16 @@ Assets\Wide310x150Logo.scale-200.png
 ajoutClient.xbf
 AjoutMatériel.xbf
 AjoutPret.xbf
+AjoutUsager.xbf
 App.xbf
 bar.xbf
 listeClient.xbf
 ListeMateriel.xbf
 listePret.xbf
+listeUsers.xbf
 MainPage.xbf
 modifierClient.xbf
 ModifierMateriel.xbf
+ModifierUtilisateur.xbf
 Travail fin de session.xr.xml
-Users.xbf
 Properties\Default.rd.xml

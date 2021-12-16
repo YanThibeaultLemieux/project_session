@@ -24,12 +24,15 @@
                                              Binding="{Binding Heure}"/>
                 <controls:DataGridTextColumn Header="Date de remise"
                                              Binding="{Binding Date_remise}"/>
-                <controls:DataGridTextColumn Header="Utilisateur"
+                <controls:DataGridTextColumn Header="État"
                                              Binding="{Binding Etat}"/>
 
             </controls:DataGrid.Columns>
         </controls:DataGrid>
         <Button x:Name="Envoyer" Click="ajoutMateriel" Content="Ajouter" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black"/>
         </Grid>
+        <Button x:Name="Retourner" Click="retournerPret" Content="Retourner" VerticalAlignment="Center" Grid.Row="5" Width="150" Height="50" Foreground="AliceBlue" Background="Black" Margin="0,100,0,0"/>
+        <TextBlock Text="" x:Name="erreurChoix" FontSize="50" Foreground="Red" HorizontalAlignment="Center"/>
+
     </StackPanel>
 </Page>

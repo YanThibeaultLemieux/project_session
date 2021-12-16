@@ -214,7 +214,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\listePret.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\MainPage.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\modifierClient.xbf
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Users.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.xr.xml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.exe
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\Travail fin de session.pdb
@@ -258,8 +257,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\MainPage.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\modifierClient.g.i.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\modifierClient.g.cs
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Users.g.i.cs
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Users.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\App.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ajoutClient.xaml
@@ -270,7 +267,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listePret.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\MainPage.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\modifierClient.xaml
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Users.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\App.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ajoutClient.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\AjoutMatériel.xbf
@@ -280,7 +276,6 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listePret.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\MainPage.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\modifierClient.xbf
-C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Users.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Travail fin de session.csproj.CoreCompileInputs.cache
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\Travail fin de session.csproj.CopyComplete
@@ -333,3 +328,18 @@ C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de s
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierMateriel.xaml
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierMateriel.xbf
 C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\ModifierMateriel.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\AjoutUsager.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\AjoutUsager.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\AjoutUsager.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\AjoutUsager.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\AjoutUsager.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listeUsers.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listeUsers.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listeUsers.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\listeUsers.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\listeUsers.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\bin\x86\Debug\ModifierUtilisateur.xbf
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierUtilisateur.g.i.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierUtilisateur.g.cs
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierUtilisateur.xaml
+C:\Users\Sorde\Source\Repos\YanThibeaultLemieux\project_session\Travail fin de session\obj\x86\Debug\ModifierUtilisateur.xbf

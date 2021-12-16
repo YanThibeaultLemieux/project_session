@@ -36,5 +36,11 @@
         <Button Width="150" Height="50" Content="Ajouter" Click="Ajouter_Click" x:Name="btAjouter"   Foreground="AliceBlue" Background="Black"/>
         <Button Width="150" Height="50" Content="Modifier" Click="Modifier_Click" x:Name="btModifier" HorizontalAlignment="Right"   Foreground="AliceBlue" Background="Black"/>
         <TextBlock Text="" x:Name="erreurPick" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+
+        <TextBlock Text="Rechercher un client" FontSize="40" HorizontalAlignment="Center"/> 
+        <TextBox x:Name="Rechercher_Entry" Width="150" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <Button x:Name="Rechercher_Bouton" Content="Rechercher" HorizontalAlignment="Center" Click="Rechercher_Bouton_Click"/>
+        <TextBlock x:Name="résultat" HorizontalAlignment="Center" Text=""/>
     </StackPanel>
 </Page>

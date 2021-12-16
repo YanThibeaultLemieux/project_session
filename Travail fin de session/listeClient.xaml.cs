@@ -45,11 +45,30 @@ namespace Travail_fin_de_session
             {
                 erreurPick.Text = "Veuillez sélectionner un client à modifier";
             }
-            else { 
+            else {
 
-            this.Frame.Navigate(typeof(modifierClient));
+                this.Frame.Navigate(typeof(modifierClient));
+
             }
+
         }
 
+        private void Rechercher_Bouton_Click(object sender, RoutedEventArgs e)
+        {
+
+
+            if (Rechercher_Entry.Text == "") {
+                résultat.Text = "Veuillez entrez un numéro de téléphone ou ID.";
+            }
+
+            else {
+                  grilleNom.ItemsSource   = gestionDB.getInstance().rechercheClient(Rechercher_Entry.Text);
+
+
+                
+
+
+            }
+        }
     }
 }

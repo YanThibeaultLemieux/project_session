@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="Travail_fin_de_session.listeClient"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Travail_fin_de_session"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+     
+    <StackPanel>
+        <TextBlock Text="Liste de clients" VerticalAlignment="Top" HorizontalAlignment="Center" Height="150" FontSize="50" FontFamily="Cambria" />
+        <Grid Width="400px" Height="400px">
+            <controls:DataGrid x:ConnectionId='8' x:Name="grilleNom" AutoGenerateColumns="False" Grid.Row="2" HorizontalAlignment="Center" IsReadOnly="True">
+            <controls:DataGrid.Columns>
+                <controls:DataGridTextColumn Header="Id"
+                                             Binding="{Binding Id}"/>
+                <controls:DataGridTextColumn Header="Nom"
+                                             Binding="{Binding Nom}"/>
+                <controls:DataGridTextColumn Header="Prénom"
+                                             Binding="{Binding Prenom}"/>
+                <controls:DataGridTextColumn Header="Téléphone"
+                                             Binding="{Binding Telephone}"/>
+                <controls:DataGridTextColumn Header="Poste"
+                                             Binding="{Binding Poste}"/>
+                <controls:DataGridTextColumn Header="Bureau"
+                                             Binding="{Binding Bureau}"/>
+                <controls:DataGridTextColumn Header="Type"
+                                             Binding="{Binding Type}"/>
+                <controls:DataGridTextColumn Header="Email"
+                                             Binding="{Binding Email}"/>
+            </controls:DataGrid.Columns>
+        </controls:DataGrid>
+        </Grid>
+        <Button x:ConnectionId='2' Width="150" Height="50" Content="Ajouter"                       x:Name="btAjouter"   Foreground="AliceBlue" Background="Black"/>
+        <Button x:ConnectionId='3' Width="150" Height="50" Content="Modifier"                        x:Name="btModifier" HorizontalAlignment="Right"   Foreground="AliceBlue" Background="Black"/>
+        <TextBlock x:ConnectionId='4' Text="" x:Name="erreurPick" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+
+        <TextBlock Text="Rechercher un client" FontSize="40" HorizontalAlignment="Center"/> 
+        <TextBox x:ConnectionId='5' x:Name="Rechercher_Entry" Width="150" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <Button x:ConnectionId='6' x:Name="Rechercher_Bouton" Content="Rechercher" HorizontalAlignment="Center"                                />
+        <TextBlock x:ConnectionId='7' x:Name="résultat" HorizontalAlignment="Center" Text=""/>
+    </StackPanel>
+</Page>
+

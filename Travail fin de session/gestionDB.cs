@@ -73,6 +73,31 @@ namespace Travail_fin_de_session
             return liste;
         }
 
+        public ObservableCollection<Client> rechercheClient(string re)
+        {
+            ObservableCollection<Client> liste = new ObservableCollection<Client>();
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "recherche_client";
+            commande.CommandType = System.Data.CommandType.StoredProcedure;
+            commande.Parameters.AddWithValue("information", re);
+
+            con.Open();
+            MySqlDataReader r = commande.ExecuteReader();
+
+            while (r.Read())
+            {
+                liste.Add(new Client(r.GetString(0), r.GetString(1), r.GetString(2), r.GetString(3), r.GetString(4), r.GetString(5), r.GetString(6), r.GetString(7)));
+
+            }
+
+            r.Close();
+            con.Close();
+
+            return liste;
+        }
+
 
 
 
@@ -215,6 +240,30 @@ namespace Travail_fin_de_session
             con.Close();
 
            
+        }
+
+
+        public void ajouterUsager(Utilisateurs u)
+        {
+
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "insert_into_utilisateur";
+            commande.CommandType = System.Data.CommandType.StoredProcedure;
+
+            commande.Parameters.AddWithValue("username", u.Nom_utilisateur);
+            commande.Parameters.AddWithValue("name", u.Nom);
+            commande.Parameters.AddWithValue("firstname", u.Prenom);
+            commande.Parameters.AddWithValue("mdp", u.Motdepasse);
+            con.Open();
+
+            commande.Prepare();
+
+            MySqlDataReader r = commande.ExecuteReader();
+
+            con.Close();
+
+
         }
 
 
@@ -364,6 +413,28 @@ namespace Travail_fin_de_session
             MySqlDataReader r = commande.ExecuteReader();
 
            
+            con.Close();
+
+        }
+
+        public void modifierUsager(Utilisateurs u)
+        {
+            MySqlCommand commande = new MySqlCommand();
+            commande.Connection = con;
+            commande.CommandText = "update_utilisateur";
+            commande.CommandType = System.Data.CommandType.StoredProcedure;
+            commande.Parameters.AddWithValue("username", u.Nom_utilisateur);
+            commande.Parameters.AddWithValue("name", u.Nom);
+            commande.Parameters.AddWithValue("firstname", u.Prenom);
+            commande.Parameters.AddWithValue("mdp", u.Motdepasse);
+
+            con.Open();
+
+            commande.Prepare();
+
+            MySqlDataReader r = commande.ExecuteReader();
+
+
             con.Close();
 
         }

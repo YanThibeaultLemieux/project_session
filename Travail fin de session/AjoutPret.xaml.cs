@@ -48,7 +48,7 @@ namespace Travail_fin_de_session
 
         private void EnvoyerClient(object sender, RoutedEventArgs e)
         {
-            Regex heureRegex = new Regex(@"^([0]?[7-9]|^[1]?[0-7]):[0-5][0-9]:[0-5][0-9]");
+            Regex heureRegex = new Regex(@"^([0]?[8-9]|^[1]?[0-7]):[0-5][0-9]:[0-5][0-9]");
 
             var something = datePrêtPicker.Date.DateTime.Year;
             var something2 = datePrêtPicker.Date.DateTime.Month;
@@ -107,7 +107,7 @@ namespace Travail_fin_de_session
             {
                 heureGenerale.BorderBrush = new SolidColorBrush(Colors.Red);
                 heureGenerale.Foreground = new SolidColorBrush(Colors.Red);
-                erreurHeure.Text = "Choisissez un heure entre 07:00:00 et 17:00:00";
+                erreurHeure.Text = "Choisissez un heure entre 08:00:00 et 17:00:00";
             }
 
             if (pluspetitimpossible1 > pluspetitimpossible2) 
@@ -117,10 +117,10 @@ namespace Travail_fin_de_session
                 erreurDateRetour.Text = "Impossible de remettre dans le passé";
             }
 
-            if (DONOT.ToString() != "Saturday" && DONOT.ToString() != "Sunday" && hahanon.ToString() != "Saturday" && hahanon.ToString() != "Sunday"
+            else if (DONOT.ToString() != "Saturday" && DONOT.ToString() != "Sunday" && hahanon.ToString() != "Saturday" && hahanon.ToString() != "Sunday"
                 && heureRegex.IsMatch(heureGenerale.Text))
             {
-
+                try { 
 
                 if (choixHeure.IsChecked == true)
                 {
@@ -130,9 +130,12 @@ namespace Travail_fin_de_session
                     //   detailPret dp = new detailPret(p.Id, idMatérielComboBox.SelectedValue.ToString(), 0, MainPage.Connecté);
                     //   gestionDB.getInstance().ajouterDetailPret(dp);
                     MainPage.listePrets.Add(p);
-                    //Ajouter à la liste dp
-                }
-                else if (choixJour.IsChecked == true)
+                        erreurId.Text = "";
+                        this.Frame.Navigate(typeof(listePret));
+
+                        //Ajouter à la liste dp
+                    }
+                    else if (choixJour.IsChecked == true)
                 {
 
                        
@@ -142,12 +145,18 @@ namespace Travail_fin_de_session
                         gestionDB.getInstance().ajouterPret_1(p);
                         //        gestionDB.getInstance().ajouterDetailPret(dp);
                         MainPage.listePrets.Add(p);
-                    //Ajouter à la liste dp
-
+                        //Ajouter à la liste dp
+                        erreurId.Text = "";
+                        this.Frame.Navigate(typeof(listePret));
 
 
                 }
+                }
 
+                catch (Exception)
+                {
+                    erreurId.Text = "Une erreur s'est produite, veuillez vérifier vos dates.";
+                }
 
 
 

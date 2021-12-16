@@ -32,6 +32,8 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -53,9 +55,10 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="Height" />
       <RootProperty Name="FontFamily" />
-      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Width" />
@@ -63,7 +66,9 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="MaxLength" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Width" />
@@ -72,6 +77,7 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -82,6 +88,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Travail_fin_de_session.ajoutClient" />
@@ -96,9 +103,11 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="Content" />
+      <RootProperty Name="IsChecked" />
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Travail_fin_de_session.AjoutPret" />
+    <RootType FullName="Travail_fin_de_session.AjoutUsager" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="VerticalAlignment" />
     </RootType>
@@ -133,6 +142,7 @@
     <RootType FullName="Travail_fin_de_session.listePret" />
     <RootType FullName="Travail_fin_de_session.MainPage" />
     <RootType FullName="Travail_fin_de_session.modifierClient" />
-    <RootType FullName="Travail_fin_de_session.Users" />
+    <RootType FullName="Travail_fin_de_session.ModifierMateriel" />
+    <RootType FullName="Travail_fin_de_session.listeUsers" />
   </Roots.RootTypes>
 </Roots>

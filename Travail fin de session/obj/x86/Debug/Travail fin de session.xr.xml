@@ -66,6 +66,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Margin" />
       <RootProperty Name="MaxLength" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
     </RootType>
@@ -87,6 +88,7 @@
       <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Travail_fin_de_session.ajoutClient" />
@@ -105,6 +107,7 @@
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Travail_fin_de_session.AjoutPret" />
+    <RootType FullName="Travail_fin_de_session.AjoutUsager" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="VerticalAlignment" />
     </RootType>
@@ -140,6 +143,7 @@
     <RootType FullName="Travail_fin_de_session.MainPage" />
     <RootType FullName="Travail_fin_de_session.modifierClient" />
     <RootType FullName="Travail_fin_de_session.ModifierMateriel" />
-    <RootType FullName="Travail_fin_de_session.Users" />
+    <RootType FullName="Travail_fin_de_session.listeUsers" />
+    <RootType FullName="Travail_fin_de_session.ModifierUtilisateur" />
   </Roots.RootTypes>
 </Roots>

@@ -22,6 +22,7 @@ namespace Travail_fin_de_session
     /// </summary>
     public sealed partial class listePret : Page
     {
+        internal static pret indexPret = new pret();
         public listePret()
         {
             this.InitializeComponent();
@@ -32,6 +33,18 @@ namespace Travail_fin_de_session
         private void ajoutMateriel(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(AjoutPret));
+        }
+
+        private void retournerPret(object sender, RoutedEventArgs e)
+        {
+            indexPret = (pret)grillePrêt.SelectedItem;
+            if (listePret.indexPret is null)
+            {
+                erreurChoix.Text = "Veuillez sélectionner un prêt à retourner";
+            }
+            else
+            {
+            }
         }
     }
 }

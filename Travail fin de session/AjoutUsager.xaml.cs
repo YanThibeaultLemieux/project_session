@@ -26,5 +26,54 @@ namespace Travail_fin_de_session
         {
             this.InitializeComponent();
         }
+
+        private void btEnvoyer_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (nom.Text == "")
+            {
+                erreurNom.Text = "Veuillez entrez un nom";
+            }
+            else erreurNom.Text = "";
+
+            if (usernameBox.Text == "")
+            {
+                erreurUsername.Text = "Veuillez entrez un nom d'usager";
+            }
+            else erreurUsername.Text = "";
+
+            if (prenom.Text == "")
+            {
+                erreurPrenom.Text = "Veuillez entrer un prénom.";
+            }
+            else erreurPrenom.Text = "";
+
+            if (mdp.Text == "")
+            {
+                erreurMDP.Text = "Veuillez rentrer un mot de passe.";
+            }
+            else
+                erreurMDP.Text = "";
+
+
+            if (nom.Text != "" && prenom.Text != "" && usernameBox.Text != "" && mdp.Text != "")
+            {
+                try 
+                {
+                    Utilisateurs u = new Utilisateurs(usernameBox.Text, nom.Text, prenom.Text, mdp.Text);
+
+                    gestionDB.getInstance().ajouterUsager(u);
+                    MainPage.listeUsers.Add(u);
+                    this.Frame.Navigate(typeof(listeUsers));
+                
+                }
+                
+
+                    catch(MySql.Data.MySqlClient.MySqlException)
+                {
+                    erreurUsername.Text = "Veuillez vous assurez que ce nom d'utilisateur ne soit pas déjà utilisé.";
+                }
+            }
+        }
     }
 }

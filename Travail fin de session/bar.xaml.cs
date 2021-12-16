@@ -36,7 +36,7 @@ namespace Travail_fin_de_session
 
         private void Utilisateur_Click(object sender, RoutedEventArgs e)
         {
-            this.mainFrame.Navigate(typeof(Users));
+            this.mainFrame.Navigate(typeof(listeUsers));
         }
 
         private void Materiel_Click(object sender, RoutedEventArgs e)
